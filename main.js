@@ -43,8 +43,8 @@ function render() {
             taskDiv.innerHTML = `
                 <div>${task.text}</div>
                 <div class="buttons">
-                    <button onclick="toggleTask(${index})">${task.isCompleted ? "되돌리기" : "Check"}</button>
-                    <button onclick="deleteTask(${index})">Delete</button>
+                    <button onclick="toggleTask(${index})">${task.isCompleted ? "되돌리기" : "Check"}</button><!-
+                    -><button onclick="deleteTask(${index})">Delete</button>
                 </div>
             `;
 
